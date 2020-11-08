@@ -1,17 +1,17 @@
 /*
  * =====================================================================================
  *
- *       Filename:  a.cpp
+ *       Filename:  ptr.cpp
  *
- *    Description:
+ *    Description:  
  *
  *        Version:  1.0
- *        Created:  02/28/2020 23:16:41
+ *        Created:  11/08/20 16:56:44
  *       Revision:  none
- *       Compiler:  clang
+ *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (),
- *   Organization:
+ *         Author:  YOUR NAME (), 
+ *   Organization:  
  *
  * =====================================================================================
  */
@@ -20,10 +20,9 @@
 
 using namespace std;
 
-int main()
-{
-   cout << "Hello World" << endl;
-   cout << "Welcome to my program!" << endl;
+int main() {
+    int a = 20;
+    int* prt_a = & a;
 
-
+    cout << *prt_a << endl;
 }
